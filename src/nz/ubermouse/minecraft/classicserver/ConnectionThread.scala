@@ -1,14 +1,21 @@
 package nz.ubermouse.minecraft.classicserver
 
+import java.net.{ServerSocket, Socket}
+
 /**
  * Created with IntelliJ IDEA.
  * User: UberMouse
  * Date: 11/01/13
- * Time: 01:18
+ * Time: 01:32
  * To change this template use File | Settings | File Templates.
  */
-object ServerConfig {
-  val serverName = "UberMouse Test Server"
-  val maxPlayers = 32
-  val port = 25565
+class ConnectionThread extends Runnable {
+
+  val listeningSocket = new ServerSocket()
+
+  def run() {
+    while(true) {
+
+    }
+  }
 }

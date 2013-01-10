@@ -1,9 +1,10 @@
 package nz.ubermouse.minecraft.classicserver
 
-import java.net.URL
+import java.net.{URLEncoder, URL}
 import utils.Base62
 import util.Random
-import java.io.{InputStreamReader, OutputStream, BufferedReader}
+import java.io.{InputStreamReader, BufferedReader}
+import ServerConfig.port
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,9 +19,9 @@ class HeartbeatThread extends Runnable {
 
   def run() {
     while(true) {
-      val conn = new URL("http://minecraft.net/heartbeat.jsp?port=25565" +
-                                                           "&max=32" +
-                                                           "&name=${ServerConfig.serverName}" +
+      val conn = new URL(s"http://minecraft.net/heartbeat.jsp?port=${ServerConfig.port}" +
+                                                           s"&max=${ServerConfig.maxPlayers}" +
+                                                           s"&name=${URLEncoder.encode(ServerConfig.serverName, "UTF-8")}" +
                                                            "&public=True" +
                                                            "&version=7" +
                                                            "&salt=$salt" +
