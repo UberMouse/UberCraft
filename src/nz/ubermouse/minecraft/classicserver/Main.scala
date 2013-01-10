@@ -9,5 +9,8 @@ package nz.ubermouse.minecraft.classicserver
  */
 object Main extends App {
   val heartbeatThread = new Thread(new HeartbeatThread)
+  val connectionThread = new Thread(new ConnectionThread)
+
   heartbeatThread.start()
+  connectionThread.start()
 }

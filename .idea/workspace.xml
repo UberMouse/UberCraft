@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ee0d76-388a-422d-ad5a-22455e37d777" name="Default" comment="Created Heartbeat thread.&#10;Makes request to minecraft.net every 90 seconds to add server to server list">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/HeartbeatThread.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/HeartbeatThread.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ServerConfig.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ServerConfig.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Main.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Main.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MinecraftCreativeServer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357820828967" ignored="false" />
-    <file path="/Main.scala" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357819763769" ignored="false" />
+    <file path="/Main.scala" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357823002060" ignored="false" />
     <file path="/HeartbeatThread.scala" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357822489061" ignored="false" />
     <file path="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/utils/Base62.scala" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357818866920" ignored="false" />
     <file path="/a.dummy" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357819462843" ignored="false" />
     <file path="/ServerInformation.scala" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357819480274" ignored="false" />
     <file path="/ServerConfig.scala" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357821935186" ignored="false" />
-    <file path="/ConnectionThread.scala" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357821919106" ignored="false" />
+    <file path="/ConnectionThread.scala" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357823482934" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,16 +82,16 @@
       <file leaf-file-name="Main.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="91" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+            <state line="16" column="46" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeartbeatThread.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HeartbeatThread.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/HeartbeatThread.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="118" selection-start="788" selection-end="788" vertical-scroll-proportion="0.37037036">
+            <state line="32" column="173" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#46#79#0" expanded="true" />
               </folding>
@@ -100,11 +99,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionThread.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConnectionThread.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="41" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="31" column="32" selection-start="890" selection-end="890" vertical-scroll-proportion="0.7430556">
+              <folding>
+                <element signature="e#46#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,10 +151,10 @@
         <option value="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/utils/Base62.scala" />
         <option value="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Globals.scala" />
         <option value="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ServerInformation.scala" />
-        <option value="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Main.scala" />
-        <option value="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala" />
         <option value="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ServerConfig.scala" />
         <option value="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/HeartbeatThread.scala" />
+        <option value="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Main.scala" />
+        <option value="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala" />
       </list>
     </option>
   </component>
@@ -412,21 +413,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3997773" sideWeight="0.49786553" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3997773" sideWeight="0.49839914" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2561366" sideWeight="0.19599108" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.49786553" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.5026681" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2561366" sideWeight="0.21937639" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.48719317" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.4850587" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2561366" sideWeight="0.3964365" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.49573106" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2561366" sideWeight="0.44320711" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.49359658" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -517,23 +518,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="91" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ServerInformation.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="20" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -545,11 +532,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="46" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/HeartbeatThread.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="118" selection-start="788" selection-end="788" vertical-scroll-proportion="0.37037036">
+        <state line="32" column="173" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#46#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="32" selection-start="890" selection-end="890" vertical-scroll-proportion="0.7430556">
+          <folding>
+            <element signature="e#46#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
