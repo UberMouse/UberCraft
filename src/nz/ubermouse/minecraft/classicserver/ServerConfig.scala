@@ -8,7 +8,7 @@ package nz.ubermouse.minecraft.classicserver
  * To change this template use File | Settings | File Templates.
  */
 object ServerConfig {
-  val serverName = "UberMouse Test Server"
+  val serverName = "UberCraft Test Server"
   val maxPlayers = 32
   val port = 25565
 }

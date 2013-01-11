@@ -15,7 +15,7 @@ class ConnectionThread extends Runnable {
   val listeningSocket = new ServerSocket(ServerConfig.port)
 
   def run() {
-    while(true) {
+    while(Server.isConnected) {
       if (listeningSocket.isClosed)
         return
       val connection = listeningSocket.accept()
@@ -25,12 +25,11 @@ class ConnectionThread extends Runnable {
     }
   }
 
-  class Accept(client:Socket) extends Runnable {
+  class Accept(socket:Socket) extends Runnable {
 
     def run() {
-      val packet = new BufferedReader(new InputStreamReader(client.getInputStream))
-      while(packet.ready())
-        println(packet.read().asInstanceOf[Byte])
+      val client = new Client(socket)
+      Main.server.addClient(client)
     }
   }
 }

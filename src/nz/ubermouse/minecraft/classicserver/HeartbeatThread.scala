@@ -18,7 +18,7 @@ class HeartbeatThread extends Runnable {
   val salt = Base62.encode(Math.abs(Random.nextLong()))
 
   def run() {
-    while(true) {
+    while(Server.isConnected) {
       val conn = new URL(s"http://minecraft.net/heartbeat.jsp?port=${ServerConfig.port}" +
                                                            s"&max=${ServerConfig.maxPlayers}" +
                                                            s"&name=${URLEncoder.encode(ServerConfig.serverName, "UTF-8")}" +
