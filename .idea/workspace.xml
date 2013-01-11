@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08ee0d76-388a-422d-ad5a-22455e37d777" name="Default" comment="Created Heartbeat thread.&#10;Makes request to minecraft.net every 90 seconds to add server to server list">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/classicminecraft/client/Connection.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/classicminecraft/server/LevelFinalize.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/classicminecraft/server/LevelInit.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/utils/Logger.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Player.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/classicminecraft/server/ServerIdentification.scala" />
-      <change type="DELETED" beforePath="C:\Users\UberMouse\Dropbox\Programming\Scala\MinecraftCreativeServer\src\nz\ubermouse\minecraft\classicserver\packets\classicminecraft\ConnectionPacket.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/ByteBufferWrapper.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/ByteBufferWrapper.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Client.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Client.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ConnectionThread.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/HeartbeatThread.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/HeartbeatThread.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Main.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Main.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/Packet.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/Packet.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/PacketRegistry.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/packets/PacketRegistry.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Server.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Server.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ServerConfig.scala" afterPath="$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/ServerConfig.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="08ee0d76-388a-422d-ad5a-22455e37d777" name="Default" comment="Created Heartbeat thread.&#10;Makes request to minecraft.net every 90 seconds to add server to server list" />
     <ignored path="MinecraftCreativeServer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="08ee0d76-388a-422d-ad5a-22455e37d777" time="1357820828967" ignored="false" />
@@ -210,7 +192,7 @@
       <file leaf-file-name="Server.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Server.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="321" selection-end="321" vertical-scroll-proportion="0.3628472">
+            <state line="16" column="174" selection-start="451" selection-end="451" vertical-scroll-proportion="0.4513889">
               <folding>
                 <element signature="e#46#82#0" expanded="true" />
               </folding>
@@ -621,7 +603,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -635,7 +617,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2561366" sideWeight="0.44320711" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.48078975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.48078975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -832,7 +814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nz/ubermouse/minecraft/classicserver/Server.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="321" selection-end="321" vertical-scroll-proportion="0.3628472">
+        <state line="16" column="174" selection-start="451" selection-end="451" vertical-scroll-proportion="0.4513889">
           <folding>
             <element signature="e#46#82#0" expanded="true" />
           </folding>
