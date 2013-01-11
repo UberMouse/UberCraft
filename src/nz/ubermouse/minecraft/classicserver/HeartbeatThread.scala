@@ -1,7 +1,7 @@
 package nz.ubermouse.minecraft.classicserver
 
 import java.net.{URLEncoder, URL}
-import utils.Base62
+import utils.{Logger, Base62}
 import util.Random
 import java.io.{InputStreamReader, BufferedReader}
 import ServerConfig.port
@@ -31,9 +31,12 @@ class HeartbeatThread extends Runnable {
       val reader = new BufferedReader(new InputStreamReader(conn.getInputStream))
       while(reader.ready()) {
         val line = reader.readLine()
-        if (line.matches("http://minecraft.net/classic/play/[a-zA-Z0-9]*"))
+        if (line.matches("http://minecraft.net/classic/play/[a-zA-Z0-9]*")) {
           ServerInformation.serverUrl = line
-        println(line)
+          Logger().info(s"Heartbeat Sucessful. Minecraft Server URL: $line", "Heartbeat")
+        }
+        else
+          Logger().trace(line, "Heartbeat")
       }
 
       Thread.sleep(90000)

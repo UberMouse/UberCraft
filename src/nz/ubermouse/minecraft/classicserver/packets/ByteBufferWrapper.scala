@@ -1,6 +1,7 @@
 package nz.ubermouse.minecraft.classicserver.packets
 
 import java.nio.ByteBuffer
+import java.security.InvalidParameterException
 
 /**
  * Created with IntelliJ IDEA.
@@ -16,5 +17,16 @@ class ByteBufferWrapper(buffer:ByteBuffer) {
     for (i <- 0 until 64)
       temp(i) = buffer.get()
     new String(temp, "US-ASCII").trim()
+  }
+
+  def putString(data:String) {
+    val bytes = data.getBytes("UTF-8")
+    buffer.put(bytes)
+  }
+
+  def put(data:Int) {
+    if(data > Byte.MaxValue || data < Byte.MinValue)
+      throw new InvalidParameterException("data integer value does not fit within a Byte")
+    buffer.put(data.asInstanceOf[Byte])
   }
 }

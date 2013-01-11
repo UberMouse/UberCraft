@@ -1,6 +1,7 @@
 package nz.ubermouse.minecraft.classicserver
 
 import collection.mutable.ListBuffer
+import utils.Logger
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,7 +11,7 @@ import collection.mutable.ListBuffer
  * To change this template use File | Settings | File Templates.
  */
 class Server {
-
+  new Logger("output", "MinecraftClassicServer", Logger.LOGGING_MODE_ALL, "log")
   val clients = new ListBuffer[Client]
 
   val heartbeatThread = new Thread(new HeartbeatThread)
@@ -19,6 +20,7 @@ class Server {
   connectionThread.start()
 
   def addClient(client:Client) {
+    Logger().trace(s"Adding client: ${client.connection.getInetAddress.getHostAddress}", "Networking")
     synchronized {
       clients += client
     }

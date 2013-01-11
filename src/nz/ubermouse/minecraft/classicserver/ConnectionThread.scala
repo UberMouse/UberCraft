@@ -2,6 +2,7 @@ package nz.ubermouse.minecraft.classicserver
 
 import java.net.{ServerSocket, Socket}
 import java.io.{InputStreamReader, BufferedReader}
+import utils.Logger
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,7 +20,7 @@ class ConnectionThread extends Runnable {
       if (listeningSocket.isClosed)
         return
       val connection = listeningSocket.accept()
-      println(s"Recieved connection from: ${connection.getInetAddress.getHostAddress}")
+      Logger().info(s"Recieved connection from: ${connection.getInetAddress.getHostAddress}", "Networking")
       connection.setSoTimeout(30000)
       new Thread(new Accept(connection)).start()
     }
